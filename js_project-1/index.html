@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/countdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./images/pd logo.jpg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@600&family=Rubik+Glitch&family=Rubik+Microbe&display=swap"
+        rel="stylesheet">
+    <title>B-DAY COUNTDOWN</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="overlay">
+            <div class="title">My Birthday Coming Soon</div>
+            <div class="set_time" id="end-date">17 May 2023 12:05 AM</div>
+            <div class="col">
+                <div>
+                    <input type="text" readonly value="0">
+                    <br>
+                    <label>days</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br>
+                    <label>hours</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br>
+                    <label>minutes</label>
+                </div>
+                <div>
+                    <input type="text" readonly value="0">
+                    <br>
+                    <label>seconds</label>
+                </div>
+            </div>
+            <marquee behavior="scroll" direction="right" scrollamount="15"><div id="wish_me"></div></marquee>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
